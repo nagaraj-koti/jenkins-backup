@@ -1,0 +1,19 @@
+Started by user [8mha:////4Im8yuvoyvBgN99F7Z2YUuenlJmRHUwFlVfVXbZpuHd4AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgYu/dLi1CL9vMT0UgCiD4IBvwAAAA==[0mNagaraj
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/check time in master
+[check time in master] $ /bin/sh -xe /tmp/jenkins1962308183769408021.sh
++ date '+%Z %z'
+UTC +0000
++ timedatectl
++ grep 'Time zone'
+                Time zone: UTC (UTC, +0000)
++ date
+Wed Aug 10 19:25:16 UTC 2022
++ sleep 5
+[check time in master] $ /bin/sh -xe /tmp/jenkins3913755251586383721.sh
++ echo '2nd shell exec'
+2nd shell exec
++ date
+Wed Aug 10 19:25:21 UTC 2022
+Triggering a new build of [8mha:////4GfK/PZq+rnU0Af5td92CvEggLVFRNUjEIrw5uuldolFAAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgYp/az8JP3kjNTkbFUjg5LM3FQgVZyTWJaqDwCZd3ftzwAAAA==[0mcheck time slave
+Finished: SUCCESS

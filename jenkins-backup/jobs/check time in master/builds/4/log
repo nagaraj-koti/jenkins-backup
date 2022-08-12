@@ -1,0 +1,13 @@
+Started by user [8mha:////4Im8yuvoyvBgN99F7Z2YUuenlJmRHUwFlVfVXbZpuHd4AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgYu/dLi1CL9vMT0UgCiD4IBvwAAAA==[0mNagaraj
+Running as SYSTEM
+Building remotely on [8mha:////4AMIAf2JIBAVc66L0dIqn0+mp+VO8JScO43vMFRrdC5lAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygOw0BADPgR8QAAAA=[0mnode1 in workspace /home/ec2-user/workspace/check time in master
+[check time in master] $ /bin/sh -xe /tmp/jenkins8980190373399645078.sh
++ timedatectl
++ grep 'Time zone'
+                Time zone: Asia/Kolkata (IST, +0530)
++ timedatectl set-timezone Asia/Kolkata
++ grep 'Time zone'
++ timedatectl
+                Time zone: Asia/Kolkata (IST, +0530)
+Triggering a new build of [8mha:////4GfK/PZq+rnU0Af5td92CvEggLVFRNUjEIrw5uuldolFAAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgYp/az8JP3kjNTkbFUjg5LM3FQgVZyTWJaqDwCZd3ftzwAAAA==[0mcheck time slave
+Finished: SUCCESS

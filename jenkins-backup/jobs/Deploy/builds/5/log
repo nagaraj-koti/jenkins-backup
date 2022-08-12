@@ -1,0 +1,13 @@
+Started by upstream project "[8mha:////4MJdRGQr6nuopSSk8zgc81eKBTU4/uNwqJZsaqPza2EuAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JP2M1JycfN3y/KKcFH0ApTZEHcYAAAA=[0mhello-world" build number [8mha:////4CNJcOCsd65uj+WZ2LZ8H0A5Vezmo0rbEUdFGF3ecA6qAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZh/az8JP2M1JycfN3y/KKcFH1jSwDI4HmnyAAAAA==[0m39
+originally caused by:
+ Started by user [8mha:////4Im8yuvoyvBgN99F7Z2YUuenlJmRHUwFlVfVXbZpuHd4AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgYu/dLi1CL9vMT0UgCiD4IBvwAAAA==[0mNagaraj
+Running as SYSTEM
+Building remotely on [8mha:////4AMIAf2JIBAVc66L0dIqn0+mp+VO8JScO43vMFRrdC5lAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygOw0BADPgR8QAAAA=[0mnode1 in workspace /home/ec2-user/workspace/Deploy
+[Deploy] $ /bin/sh -xe /tmp/jenkins5767369317554630755.sh
++ cd /home/ec2-user/workspace1/hello-world/target
++ scp hello-world-war-1.0.0.war root@43.204.32.172:/usr/local/tomcat9/webapps
++ grep 'Time zone'
++ timedatectl
+                Time zone: Asia/Kolkata (IST, +0530)
+Triggering a new build of [8mha:////4EOhLO90X+JzFZ3J9ju0H4hFD6x9n1ZshlalZfaqKruYAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JP2i0jzdktTiEn0AjiKVTcMAAAA=[0mrun-test
+Finished: SUCCESS

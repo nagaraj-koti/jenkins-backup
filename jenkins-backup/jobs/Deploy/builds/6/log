@@ -1,0 +1,12 @@
+Started by upstream project "[8mha:////4MJdRGQr6nuopSSk8zgc81eKBTU4/uNwqJZsaqPza2EuAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JP2M1JycfN3y/KKcFH0ApTZEHcYAAAA=[0mhello-world" build number [8mha:////4LDcq2CEmQ03i0p1GHOWIaCWZkviTepue6nmtMpkMU3wAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZh/az8JP2M1JycfN3y/KKcFH0TAwCrzuSRyAAAAA==[0m40
+originally caused by:
+ Started by GitHub push by nagaraj-koti
+Running as SYSTEM
+Building remotely on [8mha:////4AMIAf2JIBAVc66L0dIqn0+mp+VO8JScO43vMFRrdC5lAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygOw0BADPgR8QAAAA=[0mnode1 in workspace /home/ec2-user/workspace/Deploy
+[Deploy] $ /bin/sh -xe /tmp/jenkins6412641958954489242.sh
++ cd /home/ec2-user/workspace1/hello-world/target
++ scp hello-world-war-1.0.0.war root@43.204.32.172:/usr/local/tomcat9/webapps
+ssh: connect to host 43.204.32.172 port 22: Connection timed out
+lost connection
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

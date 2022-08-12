@@ -1,0 +1,44 @@
+Started by user [8mha:////4Im8yuvoyvBgN99F7Z2YUuenlJmRHUwFlVfVXbZpuHd4AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgYu/dLi1CL9vMT0UgCiD4IBvwAAAA==[0mNagaraj
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/demo
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/nagaraj-koti/demo.git
+ > git init /var/lib/jenkins/workspace/demo # timeout=10
+Fetching upstream changes from https://github.com/nagaraj-koti/demo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.31.1'
+ > git fetch --tags --force --progress -- https://github.com/nagaraj-koti/demo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/nagaraj-koti/demo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision d562f272865512eced54a4c29639d65c070973af (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d562f272865512eced54a4c29639d65c070973af # timeout=10
+Commit message: "Files edited"
+First time build. Skipping changelog.
+[demo] $ /bin/sh -xe /tmp/jenkins7229496653837470592.sh
++ cd /var/lib/jenkins/workspace/demo
++ make ABC.exe
+gcc -c main.c
+main.c: In function ‘main’:
+main.c:3:2: warning: implicit declaration of function ‘big3’ [-Wimplicit-function-declaration]
+  big3();
+  ^~~~
+main.c:4:2: warning: implicit declaration of function ‘fact’ [-Wimplicit-function-declaration]
+  fact();
+  ^~~~
+main.c:5:2: warning: implicit declaration of function ‘reverse’ [-Wimplicit-function-declaration]
+  reverse();
+  ^~~~~~~
+main.c:6:2: warning: implicit declaration of function ‘palindrom’ [-Wimplicit-function-declaration]
+  palindrom();
+  ^~~~~~~~~
+gcc -c big3.c
+gcc -c fact.c
+gcc -c rev.c
+gcc -c palindrom.c
+gcc -o ABC.exe main.o big3.o fact.o rev.o palindrom.c
+Finished: SUCCESS

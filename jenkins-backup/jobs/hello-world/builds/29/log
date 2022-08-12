@@ -1,0 +1,69 @@
+Started by user [8mha:////4Im8yuvoyvBgN99F7Z2YUuenlJmRHUwFlVfVXbZpuHd4AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgYu/dLi1CL9vMT0UgCiD4IBvwAAAA==[0mNagaraj
+Running as SYSTEM
+Building remotely on [8mha:////4AMIAf2JIBAVc66L0dIqn0+mp+VO8JScO43vMFRrdC5lAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygOw0BADPgR8QAAAA=[0mnode1 in workspace /home/ec2-user/workspace/hello-world
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/ec2-user/workspace/hello-world/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/nagaraj-koti/java-project.git # timeout=10
+Fetching upstream changes from https://github.com/nagaraj-koti/java-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.31.1'
+ > git fetch --tags --force --progress -- https://github.com/nagaraj-koti/java-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 804a47aa45b4ac144d950fa7beea88f9669013a0 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 804a47aa45b4ac144d950fa7beea88f9669013a0 # timeout=10
+Commit message: "files added"
+ > git rev-list --no-walk 804a47aa45b4ac144d950fa7beea88f9669013a0 # timeout=10
+[hello-world] $ mvn clean install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.efsavage:hello-world-war >--------------------
+[INFO] Building Hello World Web Application Repository 1.0.0
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[8mha:////4H69F4nHNdbLFahNW8CnjKd+hpcX1xtxknXh7s2kKa07AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ hello-world-war ---
+[INFO] Deleting /home/ec2-user/workspace/hello-world/target
+[INFO] 
+[8mha:////4H69F4nHNdbLFahNW8CnjKd+hpcX1xtxknXh7s2kKa07AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ hello-world-war ---
+[8mha:////4IoS80hnmwVhDAM/L7eA+Za/dnG9C3/ZYhMFeIgLk6PxAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ec2-user/workspace/hello-world/src/main/resources
+[INFO] 
+[8mha:////4H69F4nHNdbLFahNW8CnjKd+hpcX1xtxknXh7s2kKa07AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ hello-world-war ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4H69F4nHNdbLFahNW8CnjKd+hpcX1xtxknXh7s2kKa07AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ hello-world-war ---
+[8mha:////4IoS80hnmwVhDAM/L7eA+Za/dnG9C3/ZYhMFeIgLk6PxAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ec2-user/workspace/hello-world/src/test/resources
+[INFO] 
+[8mha:////4H69F4nHNdbLFahNW8CnjKd+hpcX1xtxknXh7s2kKa07AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ hello-world-war ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4H69F4nHNdbLFahNW8CnjKd+hpcX1xtxknXh7s2kKa07AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ hello-world-war ---
+[INFO] No tests to run.
+[INFO] 
+[8mha:////4H69F4nHNdbLFahNW8CnjKd+hpcX1xtxknXh7s2kKa07AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-war-plugin:2.1.1:war (default-war) @ hello-world-war ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [hello-world-war] in [/home/ec2-user/workspace/hello-world/target/hello-world-war-1.0.0]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/ec2-user/workspace/hello-world/src/main/webapp]
+[INFO] Webapp assembled in [35 msecs]
+[INFO] Building war: /home/ec2-user/workspace/hello-world/target/hello-world-war-1.0.0.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[8mha:////4H69F4nHNdbLFahNW8CnjKd+hpcX1xtxknXh7s2kKa07AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ hello-world-war ---
+[INFO] Installing /home/ec2-user/workspace/hello-world/target/hello-world-war-1.0.0.war to /home/ec2-user/.m2/repository/com/efsavage/hello-world-war/1.0.0/hello-world-war-1.0.0.war
+[INFO] Installing /home/ec2-user/workspace/hello-world/pom.xml to /home/ec2-user/.m2/repository/com/efsavage/hello-world-war/1.0.0/hello-world-war-1.0.0.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.741 s
+[INFO] Finished at: 2022-08-10T10:48:48Z
+[INFO] ------------------------------------------------------------------------
+SSH: Connecting from host [ip-172-31-41-190.ap-south-1.compute.internal]
+SSH: Connecting with configuration [Test-server-tomcat] ...
+SSH: Disconnecting configuration [Test-server-tomcat] ...
+SSH: Transferred 2 file(s)
+Build step 'Send files or execute commands over SSH' changed build result to SUCCESS
+Finished: SUCCESS

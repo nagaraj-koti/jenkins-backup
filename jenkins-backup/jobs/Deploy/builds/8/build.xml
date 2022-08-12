@@ -1,0 +1,36 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>hello-world</upstreamProject>
+            <upstreamUrl>job/hello-world/</upstreamUrl>
+            <upstreamBuild>42</upstreamBuild>
+            <upstreamCauses>
+              <com.cloudbees.jenkins.GitHubPushCause plugin="github@1.34.5">
+                <pushedBy>nagaraj-koti</pushedBy>
+              </com.cloudbees.jenkins.GitHubPushCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>77</queueId>
+  <timestamp>1660208823440</timestamp>
+  <startTime>1660208823443</startTime>
+  <result>SUCCESS</result>
+  <duration>416</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn>node1</builtOn>
+  <workspace>/home/ec2-user/workspace/Deploy</workspace>
+  <hudsonVersion>2.346.2</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

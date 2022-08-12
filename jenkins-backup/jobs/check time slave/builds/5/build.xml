@@ -1,0 +1,36 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>check time in master</upstreamProject>
+            <upstreamUrl>job/check%20time%20in%20master/</upstreamUrl>
+            <upstreamBuild>8</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-UserIdCause>
+                <userId>nagu</userId>
+              </hudson.model.Cause_-UserIdCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>62</queueId>
+  <timestamp>1660159295769</timestamp>
+  <startTime>1660159295772</startTime>
+  <result>SUCCESS</result>
+  <duration>104</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn>node1</builtOn>
+  <workspace>/home/ec2-user/workspace/check time slave</workspace>
+  <hudsonVersion>2.346.2</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

@@ -1,0 +1,16 @@
+Started by upstream project "[8mha:////4FgZY4dIGaAY8PrjQSBV/EaSC3wTzX0XKswkkKVrIMkWAAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgYF/az8JP3kjNTkbFUjg5LM3FQglZkHJHITi0tSi/QBrHWKGtUAAAA=[0mcheck time in master" build number [8mha:////4MCqnZrfhJ0l2o09b5QVGpeEXDPH/xByxIaJsNSbHXPFAAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYl/az8JP3kjNTkbFUjg5LM3FQglZkHJHITi0tSi/QNDQBPk6/p1wAAAA==[0m10
+originally caused by:
+ Started by user [8mha:////4Im8yuvoyvBgN99F7Z2YUuenlJmRHUwFlVfVXbZpuHd4AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgYu/dLi1CL9vMT0UgCiD4IBvwAAAA==[0mNagaraj
+Running as SYSTEM
+Building remotely on [8mha:////4AMIAf2JIBAVc66L0dIqn0+mp+VO8JScO43vMFRrdC5lAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygOw0BADPgR8QAAAA=[0mnode1 in workspace /home/ec2-user/workspace/check time slave
+[check time slave] $ /bin/sh -xe /tmp/jenkins1436629759660849553.sh
++ echo ------------------------------------
+------------------------------------
++ echo 'Slave machine Timazone'
+Slave machine Timazone
++ echo -----------------------------------
+-----------------------------------
++ timedatectl
++ grep 'Time zone'
+                Time zone: Asia/Kolkata (IST, +0530)
+Finished: SUCCESS

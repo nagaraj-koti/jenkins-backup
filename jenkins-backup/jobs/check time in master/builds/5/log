@@ -1,0 +1,15 @@
+Started by user [8mha:////4Im8yuvoyvBgN99F7Z2YUuenlJmRHUwFlVfVXbZpuHd4AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgYu/dLi1CL9vMT0UgCiD4IBvwAAAA==[0mNagaraj
+Running as SYSTEM
+Building remotely on [8mha:////4AMIAf2JIBAVc66L0dIqn0+mp+VO8JScO43vMFRrdC5lAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygOw0BADPgR8QAAAA=[0mnode1 in workspace /home/ec2-user/workspace/check time in master
+[check time in master] $ /bin/sh -xe /tmp/jenkins6255968906145345721.sh
++ sudo su -
+Last login: Tue Aug  9 00:14:23 IST 2022 on pts/0
+Last failed login: Thu Aug 11 00:37:24 IST 2022 on pts/0
+There was 1 failed login attempt since the last successful login.
++ grep 'Time zone'
++ timedatectl
+                Time zone: Asia/Kolkata (IST, +0530)
++ timedatectl set-timezone Asia/Aden
+Failed to set time zone: Not authorized
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

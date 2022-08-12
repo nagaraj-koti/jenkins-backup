@@ -1,0 +1,22 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.model.UserIdMapper>
+  <version>1</version>
+  <idToDirectoryNameMap class="concurrent-hash-map">
+    <entry>
+      <string>nagu</string>
+      <string>Nagu_4976365478096857896</string>
+    </entry>
+    <entry>
+      <string>dev1</string>
+      <string>Dev1_8191883675120818352</string>
+    </entry>
+    <entry>
+      <string>ec2-user</string>
+      <string>ec2user_8948734160707155873</string>
+    </entry>
+    <entry>
+      <string>test1</string>
+      <string>Test1_2196868586588999462</string>
+    </entry>
+  </idToDirectoryNameMap>
+</hudson.model.UserIdMapper>
